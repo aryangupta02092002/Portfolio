@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#F46F09</color>
+    <color name="primaryDark">#AC3607</color>
+    <color name="accent">#03DAC5</color>
+    <color name="star_filled">#FF9800</color>
+    <color name="star_empty">#495554</color>
+    <color name="github">#0E0E0E</color>
+    <color name="linkedIn">#03A9F4</color>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background"
+    tools:context=".fragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_background"
+        android:padding="16dp">
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:id="@+id/ivBanner"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:src="@drawable/profile"-->
+<!--            -->
+<!--            />-->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivBanner"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:padding="5dp"
+            app:strokeWidth="10dp"
+            app:strokeColor="@android:color/darker_gray"
+            app:shapeAppearanceOverlay="@style/circleImageView"
+            android:src="@drawable/profile_pic"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTitle"
+            android:text="@string/welcome_to_developer_s_portfolio"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/ivBanner"
+            android:layout_margin="16dp"/>
+
+<!--        Name-->
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aryan_gupta"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/tvTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+<!--        Tagline-->
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/application_developer"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/tvName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Buttons for Social Media Profile -->
+        <LinearLayout
+            android:id="@+id/socialMediaButtonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/tvTagline"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Button for Linked-In Profile-->
+            <Button
+                android:id="@+id/btnLinkedIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linkedin"
+                android:textAllCaps="false"
+                android:layout_marginEnd="32dp"
+                android:backgroundTint="@color/linkedIn"/>
+
+            <!-- Button for GitHub Profile-->
+            <Button
+                android:id="@+id/btnGitHub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/github"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/github"/>
+        </LinearLayout>
+
+        <!-- Short Bio of the Developer -->
+        <TextView
+            android:id="@+id/tvShortBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/short_intro"
+            android:textAlignment="center"
+            android:lineHeight="30dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/socialMediaButtonContainer"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

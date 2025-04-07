@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="short_intro">
+        I have around 2 years of experience with in Software Engineering. I have developed more than a dozens of
+        applications in Android (Kotlin). I\'m proficient with Software Development Cycle. Thank you for showing up!
+    </string>
+    <string name="welcome_to_developer_s_portfolio">Welcome to Developer\'s Portfolio</string>
+    <string name="aryan_gupta">Aryan Gupta</string>
+    <string name="application_developer">Application Developer</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="github">GitHub</string>
+</resources>
