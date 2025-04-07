@@ -29,7 +29,10 @@ A sleek and modern Android Portfolio App built using **Kotlin**. This app showca
 
 ## 📸 Screenshots
 
-> *(Add screenshots here of your app – home screen, projects, about me, etc.)*
+![Screenshot](https://github.com/aryangupta02092002/Portfolio/blob/master/Screenshots/Media_1.jpeg?raw=true)
+![Screenshot](https://github.com/aryangupta02092002/Portfolio/blob/master/Screenshots/Media_2.jpeg?raw=true)
+![Screenshot](https://github.com/aryangupta02092002/Portfolio/blob/master/Screenshots/Media_3.jpeg?raw=true)
+![Screenshot](https://github.com/aryangupta02092002/Portfolio/blob/master/Screenshots/Media_4.jpeg?raw=true)
 
 ---
 
